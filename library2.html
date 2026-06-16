@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Children's Library - Set 2 | Yaqi Ferrah</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background-color: #fff9e6; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding: 15px; }
+        .container { max-width: 1200px; margin: auto; background: #fffef7; border-radius: 40px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); padding: 20px 15px; }
+        .banner { text-align: center; margin-bottom: 20px; background: linear-gradient(135deg, #ffe8b6, #ffd966); padding: 20px 15px; border-radius: 50px; }
+        .banner h1 { font-size: 2.2em; color: #c96f0e; }
+        .banner p { font-size: 1em; color: #a85d00; }
+        .logo { font-size: 2.5em; }
+        .two-columns { display: grid; grid-template-columns: 1fr; gap: 20px; }
+        @media (min-width: 768px) { .two-columns { grid-template-columns: 1fr 1fr; gap: 20px; } }
+        .card { background: #ffffffdd; backdrop-filter: blur(2px); border-radius: 24px; padding: 15px; margin-bottom: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); border-left: 10px solid #f5a623; transition: 0.2s; }
+        .card:hover { transform: translateY(-2px); }
+        .card h3 { color: #b45f06; margin: 0 0 6px 0; font-size: 1.4em; }
+        .two-columns > div:last-child .card h3 { font-style: italic; }
+        .card p { color: #5a4a2e; font-size: 1em; margin: 6px 0; }
+        .read-btn, .dua-btn { background-color: #6f9e3f; color: white; border: none; padding: 8px 18px; border-radius: 40px; cursor: pointer; margin-top: 8px; font-weight: bold; font-size: 0.9em; transition: 0.2s; }
+        .read-btn:hover, .dua-btn:hover { background-color: #4f7a2c; }
+        .section-title { font-size: 1.8em; color: #c96f0e; margin: 10px 0 15px 0; text-align: center; border-bottom: 2px solid #ffd966; display: inline-block; padding-bottom: 5px; }
+        .section-wrapper { text-align: center; margin-bottom: 10px; }
+        .footer { text-align: center; margin-top: 30px; color: #b68b40; font-size: 0.8em; border-top: 1px solid #ffe0a3; padding-top: 15px; }
+        .leaf-divider { text-align: center; font-size: 1.2em; color: #f5a623; margin: 15px 0; }
+        .nav-links { text-align: center; margin-top: 20px; }
+        .nav-links a { background-color: #6f9e3f; color: white; padding: 8px 20px; border-radius: 40px; text-decoration: none; margin: 0 10px; display: inline-block; }
+        .nav-links a:hover { background-color: #4f7a2c; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="banner">
+        <div class="logo">📚🌼</div>
+        <h1>Children's Free Library</h1>
+        <p>🌸 Yaqi Ferrah — Set 2: More Duas & Stories 🌸</p>
+    </div>
+
+    <div class="two-columns">
+        <!-- LEFT: 15 DUAS (Set 2) -->
+        <div>
+            <div class="section-wrapper"><div class="section-title">🤲 Daily Duas (Set 2)</div></div>
+            <div class="card"><h3>🤲 Dua 1: Before Study</h3><p><em>Rabbi zidni ilma</em></p><button class="dua-btn" onclick="alert('Rabbi zidni ilma - My Lord, increase me in knowledge.')">Learn</button></div>
+            <div class="card"><h3>🤲 Dua 2: After Study</h3><p><em>Allahumma infa'nii bima 'allamtani</em></p><button class="dua-btn" onclick="alert('Allahumma infa\'nii bima \'allamtani - Benefit me with what You taught me.')">Learn</button></div>
+            <div class="card"><h3>🤲 Dua 3: For Good Dreams</h3><p><em>Allahumma inni as'aluka 'ilman naafi'a</em></p><button class="dua-btn" onclick="alert('O Allah, I ask You for beneficial knowledge (say before sleeping).')">Learn</button></div>
+            <div class="card"><h3>🤲 Dua 4: When Angry</h3><p><em>A'udhu billahi min ash-shaytan ir-rajim</em></p><button class="dua-btn" onclick="alert('Say to seek Allah\'s protection from Shaytan.')">Learn</button></div>
+            <div class="card"><h3>🤲 Dua 5: For Parents (Second)</h3><p><em>Rabbighfir li wa li walidayya</em></p><button class="dua-btn" onclick="alert('My Lord, forgive me and my parents.')">Learn</button></div>
+            <div class="card"><h3>🤲 Dua 6: Entering Home</h3><p><em>Bismillah walajna, wa bismillah kharajna</em></p><button class="dua-btn" onclick="alert('Say when entering home.')">Learn</button></div>
+            <div class="card"><h3>🤲 Dua 7: Leaving Home</h3><p><em>Bismillah, tawakkaltu 'ala Allah</em></p><button class="dua-btn" onclick="alert('Say when leaving home.')">Learn</button></div>
+            <div class="card"><h3>🤲 Dua 8: When It Rains</h3><p><em>Allahumma sayyiban nafi'an</em></p><button class="dua-btn" onclick="alert('O Allah, make it a beneficial rain.')">Learn</button></div>
+            <div class="card"><h3>🤲 Dua 9: When Hearing Thunder</h3><p><em>Subhanalladhi yusabbihur ra'du bi hamdihi</em></p><button class="dua-btn" onclick="alert('Glory to Allah whom thunder glorifies.')">Learn</button></div>
+            <div class="card"><h3>🤲 Dua 10: For Sick Person</h3><p><em>Allahumma Rabban-nas, adhibil ba'sa</em></p><button class="dua-btn" onclick="alert('O Allah, Lord of mankind, remove the harm.')">Learn</button></div>
+            <div class="card"><h3>🤲 Dua 11: Before Wudu</h3><p><em>Bismillah</em></p><button class="dua-btn" onclick="alert('Bismillah - before wudu.')">Learn</button></div>
+            <div class="card"><h3>🤲 Dua 12: After Wudu</h3><p><em>Ashhadu an la ilaha illallah</em></p><button class="dua-btn" onclick="alert('I bear witness that there is no god but Allah alone.')">Learn</button></div>
+            <div class="card"><h3>🤲 Dua 13: Looking in Mirror</h3><p><em>Allahumma ahsanta khalqi fa ahsinta khuluqi</em></p><button class="dua-btn" onclick="alert('O Allah, You made my appearance good, make my character good.')">Learn</button></div>
+            <div class="card"><h3>🤲 Dua 14: Wearing New Clothes</h3><p><em>Alhamdulillah alladhi kasani hadha</em></p><button class="dua-btn" onclick="alert('Praise be to Allah who clothed me.')">Learn</button></div>
+            <div class="card"><h3>🤲 Dua 15: For Travel</h3><p><em>Subhanalladhi sakhkhara lana hadha</em></p><button class="dua-btn" onclick="alert('Glory to Allah who made this subservient to us.')">Learn</button></div>
+        </div>
+
+        <!-- RIGHT: 15 STORIES (Set 2) -->
+        <div>
+            <div class="section-wrapper"><div class="section-title">📖 Stories (Set 2)</div></div>
+            <div class="card"><h3>🕊️ 1. The Dove’s Trust</h3><p>Trust in Allah.</p><button class="read-btn" onclick="alert('A dove built a nest on a weak branch. A crow mocked her. She said: Allah protects me. The storm came, the branch bent but did not break. Trust Allah.')">Read</button></div>
+            <div class="card"><h3>🌾 2. The Farmer’s Gratitude</h3><p>Gratitude for little.</p><button class="read-btn" onclick="alert('A farmer had only one sack of grain. He thanked Allah daily. That year, his field produced ten times more. Gratitude brings increase.')">Read</button></div>
+            <div class="card"><h3>🏠 3. The Orphan’s Smile</h3><p>Bringing joy to orphans.</p><button class="read-btn" onclick="alert('A boy visited an orphanage every Friday with small gifts. The orphans’ smiles made him happy. Allah loves those who care for orphans.')">Read</button></div>
+            <div class="card"><h3>💧 4. The Well of Zamzam</h3><p>Miracle of water.</p><button class="read-btn" onclick="alert('Baby Ismail cried. His mother Hajar ran between hills. Water sprang from the ground. Zamzam still flows. Allah provides.')">Read</button></div>
+            <div class="card"><h3>🐫 5. The She-Camel of Salih</h3><p>Respecting Allah’s signs.</p><button class="read-btn" onclick="alert('Prophet Salih’s people harmed a special camel. They were punished. Respect Allah’s blessings.')">Read</button></div>
+            <div class="card"><h3>📖 6. The Boy Who Memorized Quran</h3><p>Love for Quran.</p><button class="read-btn" onclick="alert('A boy memorized one verse a day. People laughed. After ten years, he became a hafiz. Small steps lead to great achievements.')">Read</button></div>
+            <div class="card"><h3>🍞 7. The Baker’s Honesty</h3><p>Honest trade.</p><button class="read-btn" onclick="alert('A baker gave full weight even when no one watched. His business grew. Honesty brings blessings.')">Read</button></div>
+            <div class="card"><h3>🌙 8. The Moon and the Star</h3><p>Humility.</p><button class="read-btn" onclick="alert('A star boasted. The moon replied: I only reflect the sun’s light. Be humble. All light comes from Allah.')">Read</button></div>
+            <div class="card"><h3>🚪 9. The Door of Repentance</h3><p>Allah forgives.</p><button class="read-btn" onclick="alert('A man sinned many times. Each time he repented. Shaytan said: Allah won’t forgive. But Allah forgave because he kept returning. Never despair.')">Read</button></div>
+            <div class="card"><h3>🕋 10. The Black Stone</h3><p>Following Sunnah.</p><button class="read-btn" onclick="alert('Umar (RA) kissed the Black Stone and said: I know you are a stone that cannot harm or benefit. But I follow the Prophet’s example.')">Read</button></div>
+            <div class="card"><h3>🌻 11. The Sunflower That Followed the Sun</h3><p>Turning to Allah.</p><button class="read-btn" onclick="alert('A sunflower always faces the sun. Be like it: turn your heart to Allah in prayer and remembrance.')">Read</button></div>
+            <div class="card"><h3>🐜 12. The Ant’s Patience</h3><p>Patience in hardship.</p><button class="read-btn" onclick="alert('An ant’s home was destroyed. It rebuilt patiently. Allah restores what you lose with patience.')">Read</button></div>
+            <div class="card"><h3>🎁 13. The Gift of Smell</h3><p>Appreciating blessings.</p><button class="read-btn" onclick="alert('A boy with no sense of smell was still happy. He said: I can see, hear, touch. Allah has given me many gifts. Be thankful.')">Read</button></div>
+            <div class="card"><h3>🕌 14. The Man Who Built a Mosque</h3><p>Building for Allah.</p><button class="read-btn" onclick="alert('A poor man gave what little he had to build a mosque. The Prophet praised him. Allah builds a house in Jannah for such people.')">Read</button></div>
+            <div class="card"><h3>🌊 15. The Sea and the Drop</h3><p>Allah’s vast mercy.</p><button class="read-btn" onclick="alert('A drop of water felt small. The sea said: You come from me. Allah’s mercy is like an ocean. Your small good deeds are never lost.')">Read</button></div>
+        </div>
+    </div>
+
+    <div class="leaf-divider">🍃 🌸 🍃</div>
+    <div class="footer">
+        🌱 Created by Alert Hero 🤍 | Free for every child | No ads. No login 🌸<br>
+        Yaqi Ferrah — Certainty & Joy
+    </div>
+    <div class="nav-links">
+        <a href="library.html">← Back to Set 1</a>
+        <a href="library2.html">📖 Set 2 (You are here)</a>
+    </div>
+</div>
+</body>
+</html>
